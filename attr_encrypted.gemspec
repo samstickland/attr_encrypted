@@ -1,14 +1,14 @@
 Gem::Specification.new do |s| 
   s.name    = 'attr_encrypted'
-  s.version = '1.0.9'
-  s.date    = '2009-01-14'
+  s.version = '1.0.9.1'
+  s.date    = '2016-03-02'
   
   s.summary     = 'Generates attr_accessors that encrypt and decrypt attributes transparently'
-  s.description = 'Generates attr_accessors that encrypt and decrypt attributes transparently'
+  s.description = 'Fork of 1.0.9 to run with Rails 2.3 and Ruby 1.9.3'
   
-  s.author   = 'Sean Huber'
-  s.email    = 'shuber@huberry.com'
-  s.homepage = 'http://github.com/shuber/attr_encrypted'
+  s.author   = 'Modifications by Sam Stickland (original author Sean Huber)'
+  s.email    = 'sam@spacething.org (originally shuber@huberry.com)'
+  s.homepage = 'http://github.com/samstickland/attr_encrypted'
   
   s.has_rdoc = false
   s.rdoc_options = ['--line-numbers', '--inline-source', '--main', 'README.markdown']
