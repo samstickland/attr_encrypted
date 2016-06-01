@@ -1,7 +1,7 @@
 Gem::Specification.new do |s| 
   s.name    = 'attr_encrypted'
-  s.version = '1.0.9.1'
-  s.date    = '2016-03-02'
+  s.version = '1.0.9.2'
+  s.date    = '2016-06-01'
   
   s.summary     = 'Generates attr_accessors that encrypt and decrypt attributes transparently'
   s.description = 'Fork of 1.0.9 to run with Rails 2.3 and Ruby 1.9.3'

@@ -174,7 +174,7 @@ module Huberry
                 decrypted_value = options[:encryptor].send(options[:decrypt_method], options.merge(:value => encrypted_value))
                 decrypted_value = Marshal.load(decrypted_value) if options[:marshal]
               end
-              decrypted_value
+              decrypted_value.encode('UTF-8')
             else
               encrypted_value
             end
